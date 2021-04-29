@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* Global */
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #012E27;
+  font-weight: 800;
+}
+
+/* Nav Menu */
+
+.navbar {
+  background: red; /*#ff821c*/
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.navbar img {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+nav a:link,
+nav a:active,
+nav a:visited {
+  color: #012E27;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #f4f4f4;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.navbar-brand:hover {
+  color: #f4f4f4;
+}
+
+.nav-link {
+  margin-right: 1em;
+}
+
+.nav-link:hover {
+  color: #f4f4f4;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* Header */
+
+.header {
+  background-image: url('Images/funky2.jpg');
+  background-attachment: fixed;
+  background-size: 900px; /*auto*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: yellow; /*#012E27*/
+}
+
+
+/* Video */
+
+.about {
+  position: relative;
+}
+
+.video-header {
+  color: #F97300;
+  margin: 2em;
+  font-size: 3rem;
+}
+
+.charlie {
+  font-style: italic;
+  display: block;
+  padding-top: 10px;
+}
+
+.ext-link {
+  padding-left: 5px;
+}
+
+.about p {
+  line-height: 2;
+  color: #888888;
+}
+
+/* Merch */
+
+.merch {
+  margin: 6em 0;
+  position: relative;
+}
+
+.merch-header {
+  color: #F97300;
+  margin: 2em;
+  font-size: 2.5em;
+}
+
+.merch .card {
+  box-shadow: 0 0 20px #cccccc;
+}
+
+.merch .card img {
+  width: auto;
+  height: 12em;
+  margin-top: 20px;
+}
+
+.merch .card-title {
+  color: #F97300;
+  text-align: center;
+}
+
+.merch .card-body {
+  padding: 1em;
+}
+
+.merch .card-link:hover {
+  color: #f97300;
+}
+
+.merch .card-link {
+  color: green;
+}
+
+/* Contact */
+
+.contact-form {
+  margin: 10em 0 6em 0;
+  position: relative;
+}
+
+.contact-header {
+  padding: 2em 1px 0 1px;
+  color: #F97300;
+  font-size: 2.5em;
+}
+
+.contact-sub {
+  font-size: 1em;
+}
+
+.contact-form .right {
+  max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+  background: #F97300;
+  color: #ffffff;
+  border: 0;
+}
+
+.contact-form .right .form-control::placeholder {
+  color: #888888;
+  font-size: 16px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10px;
+}
+
+footer a:link,
+footer a:visited,
+footer a:active {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #F97300;
+}
+
+.name {
+  color: black;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.my-links {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 0 15px 0 15px;
+}
+
+.footer-link:link,
+.footer-link:visited,
+.footer-link:active {
+  color: black;
+}
+
+.footer-link:hover {
+  color: #F97300;
+}
+
+@media only screen and (max-width: 1366px) {
+  .contact-form {
+    margin-top: 6em;
+  }
+
+  .contact-header {
+    text-align: center;
+    padding: 0em 1px 0 1px;
+    color: #F97300;
+  }
+
+  .merch-card {
+    margin-bottom: 25px;
+  }
+
+  .contact-sub {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .header {
+    background-attachment: scroll;
+  }
+
+  .navbar img {
+    margin-left: 0px;
+  }
+}
