@@ -30,3 +30,7 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 
 <!-- ### Completed Project -->
 
+### Deployed it to
+
+[https://rohitchatla.github.io/Build-a-Product-Landing-Page/](https://rohitchatla.github.io/Build-a-Product-Landing-Page/)
+
